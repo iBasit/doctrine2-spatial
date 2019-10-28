@@ -37,7 +37,7 @@ class MBROverlaps extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBROverlaps';
+    protected $functionName = 'ST_MBROverlaps';
 
     protected $minGeomExpr = 2;
 

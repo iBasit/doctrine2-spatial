@@ -37,7 +37,7 @@ class MBRIntersects extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBRIntersects';
+    protected $functionName = 'ST_MBRIntersects';
 
     protected $minGeomExpr = 2;
 

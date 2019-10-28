@@ -37,7 +37,7 @@ class MBRTouches extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBRTouches';
+    protected $functionName = 'ST_MBRTouches';
 
     protected $minGeomExpr = 2;
 

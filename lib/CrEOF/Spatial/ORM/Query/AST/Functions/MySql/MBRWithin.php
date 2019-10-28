@@ -37,7 +37,7 @@ class MBRWithin extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBRWithin';
+    protected $functionName = 'ST_MBRWithin';
 
     protected $minGeomExpr = 2;
 

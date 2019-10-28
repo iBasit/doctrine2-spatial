@@ -35,7 +35,7 @@ class MBRContains extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBRContains';
+    protected $functionName = 'ST_MBRContains';
 
     protected $minGeomExpr = 2;
 

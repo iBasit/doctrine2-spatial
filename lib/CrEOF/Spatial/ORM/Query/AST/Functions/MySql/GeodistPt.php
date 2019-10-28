@@ -13,7 +13,7 @@ class GeodistPt extends AbstractSpatialDQLFunction
 {
 	protected $platforms = array('mysql');
 
-    protected $functionName = 'geodist_pt';
+    protected $functionName = 'ST_geodist_pt';
 
     protected $minGeomExpr = 2;
 

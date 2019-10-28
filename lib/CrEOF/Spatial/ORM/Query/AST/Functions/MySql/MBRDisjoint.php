@@ -35,5 +35,5 @@ class MBRDisjoint extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBRDisjoint';
+    protected $functionName = 'ST_MBRDisjoint';
 }

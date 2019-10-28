@@ -13,7 +13,7 @@ class DistanceFromMultyLine extends AbstractSpatialDQLFunction
 {
 	protected $platforms = array('mysql');
 
-    protected $functionName = 'distance_from_multyline';
+    protected $functionName = 'ST_distance_from_multyline';
 
     protected $minGeomExpr = 2;
 
